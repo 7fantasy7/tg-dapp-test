@@ -7,6 +7,7 @@ import {TonConnectUIProvider} from '@tonconnect/ui-react';
 // this manifest is used temporarily for development purposes
 const manifestUrl = 'https://7fantasy7.github.io/tg-dapp-test/tonconnect-manifest.json';
 
+// todo
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <TonConnectUIProvider manifestUrl={manifestUrl}>
